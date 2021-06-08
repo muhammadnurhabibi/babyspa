@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #df4d76;
+}
+
+.logo {
+    width: 68px;
+    margin-top: -3px;
+    margin-right: 5px;
+
+}
+
+.header-left {
+    float: left;
+    align-items: center;
+    display: flex;
+}
+
+.header-left p {
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+    font-style: "Cosmic Sans MS";
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 20px 0;
+    display: none;
+}
+
+
+.top-wrapper {
+    padding: 170px 0 100px 0;
+    background-image: url(images/hero-image.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.readmore {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #df4d76;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
